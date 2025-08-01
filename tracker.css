@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f6f6;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #bce5f7;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.balance {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.inc-exp-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+
+.money {
+  font-size: 22px;
+}
+
+.plus {
+  color: green;
+}
+
+.minus {
+  color: red;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.list li {
+  background: #eee;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+  margin: 6px 0;
+  border-right: 5px solid;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.list li.plus {
+  border-color: green;
+}
+
+.list li.minus {
+  border-color: red;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, button {
+  padding: 14px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #555;
+}
+
+#date {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #444;
+}
